@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 // import { useNavigate } from 'react-router-dom';
 function Navbar() {
     const [user1, setUser] = useState(false)
     let [open, setOpen] = useState(false)
     const [showModal, setShowModal] = useState(false)
-    // const navigate = useNavigate()
+    const navigate = useNavigate()
 
     const handleToggle = () => {
         setOpen(!open); // Toggle the open state
@@ -28,25 +29,24 @@ function Navbar() {
                     <div className={`font-bold text-2xl cursor-pointer p-4 ${!open ? 'border-b-2 border-black md:border-none' : ''}  flex items-center justify-between  font-[Poppins]`}>
                         <div className='flex'>
                             <img className='w-14' src="logo192.png" alt="" />
-                            <span className='text-white'>This is Logo Image</span>
                         </div>
 
                         {/* Toggle Button */}
                         <button className="md:hidden block text-white" onClick={handleToggle}>
-                            <i className='fa-solid fa-bars text-[#dce2e8]'/>
+                            <i className='fa-solid fa-bars text-[#dce2e8]' />
                         </button>
                     </div>
 
 
 
                     <ul className={`md:flex md:items-center md:pb-0 absolute md:static opacity-0.8 md:z-auto left-0 w-full md:w-auto md:pl-0 pl-4 bg-black bg-opacity-20 md:bg-black  border-t border-indigo-600  md:border-none ${open ? 'z-1 relative opacity-0.8  ' : ' md:opacity-100 opacity-0'}`}>
-                        <li className='md:ml-8 font-base md:my-0 my-7 text-gray-200 hover:text-gray-200 duration-500' > HOME </li>
-                        <li className="md:ml-8 font-base md:my-0 my-7 text-gray-200 hover:text-gray-200 duration-500">
+                        <li className={`md:ml-8 font-base md:my-0 cursor-pointer my-4   ${window.location.pathname == '/' ? 'text-blue-500' : 'text-gray-200'}  duration-500`} onClick={() => navigate('/')} > HOME </li>
+                        <li className={`md:ml-8 font-base md:my-0  cursor-pointer  my-4 ${window.location.pathname == '/services' ? 'text-blue-500' : 'text-gray-200'} duration-500`} onClick={() => navigate('/services')}>
                             SERVICES
                         </li>
-                        <li className='md:ml-8 font-base md:my-0 my-7 text-gray-200 hover:text-gray-200 duration-500'> ABOUT</li>
-                        <li className='md:ml-8 font-base md:my-0 my-7 text-gray-200 hover:text-gray-200 duration-500'> CAREERS</li>
-                        <li className='md:ml-8 font-base md:my-0 text-gray-200 hover:text-gray-200 duration-500'> CONTACT</li>
+                        <li className={`md:ml-8 font-base md:my-0 cursor-pointer  my-4 ${window.location.pathname == '/about' ? 'text-blue-500' : 'text-gray-200'} duration-500`} onClick={() => navigate('/about')} > ABOUT</li>
+                        <li className={`md:ml-8 font-base md:my-0 cursor-pointer  my-4 ${window.location.pathname == '/career' ? 'text-blue-500' : 'text-gray-200'}`} onClick={() => navigate('/career')} > CAREERS</li>
+                        <li className={`md:ml-8 font-base md:my-0 cursor-pointer pb-4 md:pb-0  my-4 ${window.location.pathname == '/contact' ? 'text-blue-500' : 'text-gray-200'}`} onClick={() => navigate('/contact')} > CONTACT</li>
                     </ul>
                 </div>
             </div>
@@ -54,4 +54,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar
