@@ -9,15 +9,15 @@ const Testimonial = () => {
             <div className='md:gap-5 lg:flex lg:gap-8 xl:w-2/3 xl:m-auto'>
                 <div className='w-full lg:w-1/3'>
                     <p className='text-gray-500 italic '>“Pro Cargo is professional, courteous, proactive, and has some of the most competitive pricing in the business. I would highly recommend them to anyone for their logistics needs for ocean, air, or project cargo.”</p>
-                    <p className='font-bold text-gray-500 mt-3'>Bobby Jacob, <a className='font-normal text-[#3d83e4]'>MATEEN Express</a></p>
+                    <p className='font-bold text-gray-500 mt-3'>Bobby Jacob, <a className='font-normal text-[#3d83e4] cursor-pointer'>MATEEN Express</a></p>
                 </div>
                 <div className='w-full my-8 lg:my-0 lg:w-1/3'>
                     <p className='text-gray-500 italic'>“Our relationship with Procargo dates back to 2007 and we’ve never looked back since. The family-like culture and understanding has given us a lot to depend on and will continue to do so.”</p>
-                    <p className='font-bold text-gray-500 mt-3'>Brad Anderson, <a className='font-normal text-[#3d83e4]'>Albemarle</a></p>
+                    <p className='font-bold text-gray-500 mt-3'>Brad Anderson, <a className='font-normal text-[#3d83e4] cursor-pointer'>Albemarle</a></p>
                 </div>
                 <div className='w-full lg:w-1/3'>
                     <p className='text-gray-500 italic'>“McIlhenny Company has acquired Pro Cargo’s services for 10 years. Because of their excellent and “over the top” assistance, our international shipments have been delivered in good order and in a timely manner.”</p>
-                    <p className='font-bold text-gray-500 mt-3'>Patricia Thompson, <a className='font-normal text-[#3d83e4]'>Tabasco – McIlhenny Co.</a></p>
+                    <p className='font-bold text-gray-500 mt-3'>Patricia Thompson, <a className='font-normal text-[#3d83e4] cursor-pointer'>Tabasco – McIlhenny Co.</a></p>
                 </div>
             </div>
         </div>

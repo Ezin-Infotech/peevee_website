@@ -11,7 +11,7 @@ const LearnMore = () => {
                 <p className='text-lg my-12 lg:my-0'>Customize</p>
                 <p className='text-lg'>Adapt</p>
             </div>
-            <a className='bg-[#3d83e4] text-white px-6 py-3 rounded-md'>LEARN MORE</a>
+            <a className='bg-[#3d83e4] text-white px-6 py-3 rounded cursor-pointer hover:bg-[#3d83e426] hover:text-blue-400'>LEARN MORE</a>
         </div>
     </div>
   )
