@@ -8,9 +8,9 @@ const Third = () => {
         </div>
         <div className='m-8 lg:w-1/2 flex flex-col max-w-3xl justify-center'>
             <p className='text-[#ff9f00] text-3xl mb-2'>OUR MISSION</p>
-            <p className='text-xl text-gray-500 font-light'>To be the best in our industry by continuing to improve our level of service.</p>
+            <p className='text-xl text-gray-500 font-light'>Maintaining our high standard of service will help us become the best in our business.</p>
             <p className='text-[#ff9f00] text-3xl mt-4 mb-2'>OUR COMMITMENT</p>
-            <p className='text-xl text-gray-800 font-light'>We commit ourselves to excellence for our customers and partners through continuous improvement of our service, technology, and communication.</p>
+            <p className='text-xl text-gray-800 font-light'>Through constant advancements in technology, communication, and service, we commit to provide our clients and partners with excellence.</p>
         </div>
     </div>
   )

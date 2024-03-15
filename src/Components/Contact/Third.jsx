@@ -7,7 +7,7 @@ const Third = () => {
         <div class="">
           <div class="md:grid md:grid-cols-3 sm:grid-cols-1">
             <div class="md:col-span-1 sm:col-span-1">
-              <h1 className=" text-2xl text-[#333;]">ProCargo Corporate</h1>
+              <h1 className=" text-2xl text-[#333;]">PEEVEE Corporate</h1>
               <p className="mt-2">
                 15619 Morales Rd.
                 <br />
@@ -50,7 +50,7 @@ const Third = () => {
             <div class="md:col-span-1 sm:col-span-1">
               <h1 className=" text-2xl text-[#333;]">Dubai</h1>
               <p className="text-[#666] font-normal">
-                Procargo UAE LLC <br />
+              PEEVEE UAE LLC <br />
                 P.O. Box 35068 <br />
                 Al Qusais Plaza, D 64 Damascus St.
               </p>

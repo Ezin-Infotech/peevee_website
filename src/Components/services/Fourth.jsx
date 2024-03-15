@@ -8,8 +8,8 @@ const Fourth = () => {
         </div>
         <div className=' gap-8'>
             <div className='p-7 bg-[rgba(0,0,0,0.7)] mb-5'>
-                <p className='text-white text-lg font-light'>ProCharter has earned an enviable reputation for solving complex aviation problems by sourcing aircraft for every possible task, encompassing one-off ‘ad-hoc’ flights for high profile clients, to long-term aircraft leases delivering extra capacity for our airline partners.</p>
-                <p className='text-white text-lg font-light mt-5'>This has resulted in ProCharter being the ‘supplier of choice’ to a broad range of clients. We are fortunate enough to count Plc’s and multinationals as customers of ours and enjoy a diverse client base covering a large geographical spread, large or small, we aim to be your preferred supplier.</p>
+                <p className='text-white text-lg font-light'>ProCharter has built an impressive reputation for handling challenging aviation issues by locating aircraft for any kind of assignment, from long-term aircraft leases that provide additional capacity for our airline partners to one-time "ad hoc" flights for well-known clients.</p>
+                <p className='text-white text-lg font-light mt-5'>As a result, a large number of clients now consider ProCharter to be their "supplier of choice." Our broad clientele spans a wide geographic area, and we are lucky to have international corporations and Plcs among our clients. Regardless of size, our goal is to become your go-to supplier.</p>
             </div>
         </div>
     </div>

@@ -9,7 +9,7 @@ const First = () => {
             <div className="p-7  md:w-1/2 bg-[rgba(0,0,0,0.7)] mb-5">
               <p className="text-white text-3xl font-light">OUR SERVICES</p>
               <p className="text-white text-2xl font-light">
-                Have questions? Contact us today!
+                Have questions? Get in touch with us right now!
               </p>
             </div>
             <div className="md:w-1/2">
