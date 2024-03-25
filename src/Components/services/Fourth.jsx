@@ -4,7 +4,7 @@ const Fourth = () => {
   return (
     <div className='mx-8 xl:mr-0 xl:flex my-12'>
         <div className='xl:mx-24 h-full w-full'>
-            <img src="https://procargo.com/wp-content/uploads/2019/01/Procargo-Procharter-Featured-768x432.jpg" className='w-full' alt="" />
+            <img src="view-plane-boxes.jpg" className='w-full' alt="" />
         </div>
         <div className=' gap-8'>
             <div className='p-7 bg-[rgba(0,0,0,0.7)] mb-5'>

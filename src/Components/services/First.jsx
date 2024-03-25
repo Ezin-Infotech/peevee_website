@@ -13,10 +13,10 @@ const First = () => {
               </p>
             </div>
             <div className="md:w-1/2">
-              <img
+              {/* <img
                 src="https://procargo.com/wp-content/uploads/2018/11/Contact-Hdr.jpg"
                 alt=""
-              />
+              /> */}
             </div>
           </div>
         </div>

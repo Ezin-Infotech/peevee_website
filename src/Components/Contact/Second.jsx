@@ -3,7 +3,7 @@ import React from "react";
 const Second = () => {
   return (
     <div className="">
-      <div className="  p-4  mx-2 md:mx-32 ">
+      {/* <div className="  p-4  mx-2 md:mx-32 ">
         <div className=" mx-auto   text-start  pt-7 pb-12 ">
           <h1 className=" uppercase text-5xl et_pb_text_inner">
             SPEAK WITH A HUMAN.
@@ -23,7 +23,7 @@ const Second = () => {
         <button className="border border-[#3d83e4] mt-4 m-2 md:mt-0  text-[#3d83e4] px-12 p-4 rounded-lg">
           Request Info
         </button>
-      </div>
+      </div> */}
           
     </div>
   );

@@ -3,7 +3,7 @@ import React from 'react'
 const Testimonial = () => {
   return (
     <div className='bg-[#f7f7f7] w-full'>
-        <div className='mx-auto py-20 px-8'>
+        {/* <div className='mx-auto py-20 px-8'>
             <p className='text-4xl font-light text-center'>WHAT CLIENTS ARE SAYING</p>
             <hr className='w-64 mx-auto  border-blue-500 my-8'/>
             <div className='md:gap-5 lg:flex lg:gap-8 xl:w-2/3 xl:m-auto'>
@@ -20,7 +20,7 @@ const Testimonial = () => {
                     <p className='font-bold text-gray-500 mt-3'>Patricia Thompson, <a className='font-normal text-[#3d83e4] cursor-pointer'>Tabasco – McIlhenny Co.</a></p>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

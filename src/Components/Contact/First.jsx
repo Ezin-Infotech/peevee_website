@@ -14,7 +14,7 @@ const First = () => {
             </div>
             <div className="md:w-1/2">
               <img
-                src="https://procargo.com/wp-content/uploads/2018/11/Contact-Hdr.jpg"
+                src=""
                 alt=""
               />
             </div>

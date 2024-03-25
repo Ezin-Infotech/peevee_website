@@ -3,7 +3,7 @@ import React from "react";
 const Third = () => {
   return (
     <div className="">
-      <div className="my-16 shadow-2xl  shadow-xl p-4  mx-2 md:mx-32">
+      {/* <div className="my-16 shadow-2xl  shadow-xl p-4  mx-2 md:mx-32">
         <div class="">
           <div class="md:grid md:grid-cols-3 sm:grid-cols-1">
             <div class="md:col-span-1 sm:col-span-1">
@@ -68,7 +68,7 @@ const Third = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

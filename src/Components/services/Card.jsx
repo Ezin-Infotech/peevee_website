@@ -4,7 +4,7 @@ const Card = () => {
     const [expand, setExpand] = useState(false)
   return (
     <div className="w-full p-14 w-fit mx-auto lg:grid lg:grid-cols-3 lg:px-20 ">
-      <div className="border shadow-lg mb-8 max-w-[400px]">
+      {/* <div className="border shadow-lg mb-8 max-w-[400px]">
         <img
           src="https://procargo.com/wp-content/uploads/2018/11/Air-Freight.jpg"
           alt=""
@@ -49,7 +49,7 @@ const Card = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className=''>
             <footer className="bg-[#161616]  ">
-                <div class=" md:px-16 py-16 text-center md:text-left ">
+                {/* <div class=" md:px-16 py-16 text-center md:text-left ">
 
 
                     <div class="grid-1 grid px-10 md:px-16 md:grid-cols-2 lg:grid-cols-5">
@@ -125,7 +125,7 @@ function Footer() {
 
                     </div>
 
-                </div>
+                </div> */}
 
             </footer>
             <div class="bg-[#000000] p-6 text-white ">
