@@ -129,7 +129,7 @@ function Footer() {
 
             </footer>
             <div class="bg-[#000000] p-6 text-white ">
-                <div className=' px-4 md:px-24'>
+                <div className='text-center text-xs px-4 md:text-base md:px-24'>
                     <span>© Copyright © 2018</span>
                     <a class="font-semibold" href="https://tw-elements.com/"
                     >Pro Cargo USA</a>
